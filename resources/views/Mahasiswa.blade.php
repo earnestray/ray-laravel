@@ -30,7 +30,44 @@
   </div>
 </nav>
 <body>
+<div class="mahasiswa">
     <h1>Halaman Mahasiswa</h1>
+</div>
+
+<table class="table-sm table-white table-hover tabel-bordered-white text-center">
+    <thead>
+    <tr>
+        <th>NIM</th>
+        <th>Nama Mahasiswa</th>
+        <th>Jenis Kelamin</th>
+        <th colspan="2">TTL</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>0702222136</td>
+        <td>Muhammad Rayhan</td>
+        <td>Laki Laki</td>
+        <td>22-12-2004</td>
+        <td>Pangkalan Berandan</td>
+    </tr>
+    <tr>
+        <td>0702222136</td>
+        <td>raya</td>
+        <td>Perempuan</td>
+        <td>22-6-2004</td>
+        <td>Medan</td>
+    </tr>
+    <tr>
+        <td>0702222136</td>
+        <td>Tyriix</td>
+        <td>Laki Laki</td>
+        <td>22-3-2004</td>
+        <td>Land of Down</td>
+    </tr>
+    </tbody>
+</table>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
