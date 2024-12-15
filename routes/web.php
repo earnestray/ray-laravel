@@ -29,6 +29,15 @@ Route::get('Profile', function () {
     return view('Profile');
 });
 
+Route::get('array', function () {
+    //infinity Loop
+    $nilai_awal = 1;
+    while ($nilai_awal <= 10) {
+        echo 'hello guys<br>'. $nilai_awal. 'x';
+        $nilai_awal++;
+    }
+});
+
 Route::get('Nama', function () {
     $nama = 'rayhan';
     return 'ini adalah <b>Bebas</b>, nama saya adalah '. $nama;
