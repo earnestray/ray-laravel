@@ -38,6 +38,13 @@ Route::get('array', function () {
     }
 });
 
+Route::get('array', function () {
+    for ($i=0; $i < ; $i++) {
+        echo 'hello world' . $i . 'x<br>'
+    }
+});
+
+
 Route::get('Nama', function () {
     $nama = 'rayhan';
     return 'ini adalah <b>Bebas</b>, nama saya adalah '. $nama;
