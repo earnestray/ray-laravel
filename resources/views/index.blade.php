@@ -9,6 +9,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
+    <a class="navbar-brand" href="Index">Halaman Utama</a>
     <a class="navbar-brand" href="/Profile">Profile</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,6 +34,16 @@
 <div class="container" style="margin-left: 20px">
 <h1>Judul</h1>
 <p>Ini Adalah Halaman Utama dari tugas laravel</p>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+    <h4>Halo ini merupakan Halaman Index</h4>
+    <p>disini tidak ada apa apa hanya teks biasa saja untuk tes</p>
+    </div>
+    <div class="col-sm-6">
+    <h4>ini samping nya</h4>
+    <p>teks di samping ini merupakan contoh dari vidio</p>
+    </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
