@@ -44,13 +44,17 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <td>0702222136</td>
-        <td>Muhammad Rayhan</td>
-        <td>Laki Laki</td>
-        <td>22-12-2004</td>
-        <td>Pangkalan Berandan</td>
-    </tr>
+        <?php $nilai_awal = 0;?>
+         @while ($nilai_awal < $jumlah)
+         <tr>
+             <td>{{$nim[$nilai_awal]}}</td>
+             <td> {{$nama [$nilai_awal]}}  </td>
+             <td>Laki Laki</td>
+             <td>22-12-2004</td>
+             <td>Pangkalan Berandan</td>
+         </tr>
+        <?php $nilai_awal++ ?>
+         @endwhile
     <tr>
         <td>0702222136</td>
         <td>raya</td>

@@ -19,10 +19,13 @@ Route::get('Index', function () {
 
 Route::get('about', function () {
     return view('about');
-});
+});  
 
 Route::get('Mahasiswa', function () {
-    return view('mahasiswa');
+    $nim = [123,124,125,126];
+    $nama = ['rayhan','ryiix','tyriix','bausant'];
+    $jumlah = count($nim);
+    return view('mahasiswa',compact('nim','jumlah','nama'));
 });
 
 Route::get('Profile', function () {
@@ -38,11 +41,6 @@ Route::get('array', function () {
     }
 });
 
-Route::get('array', function () {
-    for ($i=0; $i < ; $i++) {
-        echo 'hello world' . $i . 'x<br>'
-    }
-});
 
 
 Route::get('Nama', function () {
